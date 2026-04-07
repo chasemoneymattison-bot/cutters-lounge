@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Cutters Lounge — The Premier Grooming Experience | Atlanta, GA</title>
+<meta name="description" content="Cutters Lounge is Atlanta's premier barbershop and grooming lounge. Executive haircuts, royal shaves, and premium grooming products. Book your appointment today." />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@300;400;500;600;700&family=Oswald:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<!-- ========= HEADER ========= -->
+<header class="site-header" id="siteHeader">
+  <div class="header-inner">
+    <a href="#home" class="brand">
+      <img src="Cutters Lounge/New Logo/Cutters Lounge Atlanta logo.png" alt="Cutters Lounge Logo" class="brand-logo" />
+      <div class="brand-text">
+        <span class="brand-name">CUTTERS LOUNGE</span>
+        <span class="brand-addr">1 Moreland Ave SE, Suite D • Atlanta, GA 30316</span>
+      </div>
+    </a>
+
+    <nav class="nav-main" aria-label="Main navigation">
+      <a href="#home">Home</a>
+      <a href="#services">Services</a>
+      <a href="#products">Shop</a>
+      <a href="#staff">Barbers</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="header-actions">
+      <button class="icon-btn" aria-label="Account">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4.4 3.6-8 8-8s8 3.6 8 8"/></svg>
+      </button>
+      <button class="icon-btn" id="cartBtn" aria-label="Cart">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 2l-3 6v13a1 1 0 001 1h16a1 1 0 001-1V8l-3-6H6z"/><path d="M3 8h18"/><path d="M16 12a4 4 0 01-8 0"/></svg>
+        <span class="cart-count" id="cartCount">0</span>
+      </button>
+      <a href="#booking" class="btn btn-primary btn-book">Book Now</a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<!-- ========= HERO ========= -->
+<section class="hero" id="home">
+  <div class="hero-bg">
+    <img src="Cutters Lounge/Dudes/Confident smile in a modern barbershop.png" alt="" />
+    <div class="hero-overlay"></div>
+  </div>
+  <div class="hero-content">
+    <span class="hero-eyebrow">ATLANTA • EST. GROOMING LOUNGE</span>
+    <h1 class="hero-title">THE PREMIER<br/><span class="accent">GROOMING</span> EXPERIENCE</h1>
+    <p class="hero-sub">Precision cuts, royal shaves, and timeless style. Walk in a client — walk out a statement.</p>
+    <div class="hero-cta">
+      <a href="#booking" class="btn btn-primary btn-lg">Book Appointment</a>
+      <a href="#services" class="btn btn-ghost btn-lg">View Services</a>
+    </div>
+    <div class="hero-stats">
+      <div><strong>6</strong><span>Master Barbers</span></div>
+      <div><strong>10+</strong><span>Years Serving ATL</span></div>
+      <div><strong>4.9★</strong><span>Client Rating</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ========= SERVICES ========= -->
+<section class="services" id="services">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow">WHAT WE OFFER</span>
+      <h2 class="section-title">SERVICES & PRICING</h2>
+      <p class="section-sub">Every cut is a craft. Every shave is a ritual. Choose your experience below.</p>
+    </div>
+
+    <div class="services-grid">
+      <article class="service-card featured">
+        <div class="service-num">01</div>
+        <h3>Executive Haircut & Beard</h3>
+        <p>The full package — precision cut, beard sculpting, hot towel finish.</p>
+        <div class="service-price">$55</div>
+        <a href="#booking" class="service-book">Book →</a>
+      </article>
+
+      <article class="service-card">
+        <div class="service-num">02</div>
+        <h3>The Royal Treatment w/ Shave</h3>
+        <p>Our signature experience — haircut, straight razor shave, facial hot towel.</p>
+        <div class="service-price">$65</div>
+        <a href="#booking" class="service-book">Book →</a>
+      </article>
+
+      <article class="service-card">
+        <div class="service-num">03</div>
+        <h3>Haircut Only — No Beard</h3>
+        <p>Clean, sharp, tailored haircut with classic styling.</p>
+        <div class="service-price">$45</div>
+        <a href="#booking" class="service-book">Book →</a>
+      </article>
+
+      <article class="service-card">
+        <div class="service-num">04</div>
+        <h3>Just Shave</h3>
+        <p>Traditional straight razor shave with hot towel treatment.</p>
+        <div class="service-price">$35</div>
+        <a href="#booking" class="service-book">Book →</a>
+      </article>
+
+      <article class="service-card">
+        <div class="service-num">05</div>
+        <h3>Kid's Haircut (16 & Under)</h3>
+        <p>Styled cuts for the next generation of fresh.</p>
+        <div class="service-price">$30</div>
+        <a href="#booking" class="service-book">Book →</a>
+      </article>
+
+      <article class="service-card">
+        <div class="service-num">06</div>
+        <h3>Line Up</h3>
+        <p>Quick precision line up to keep your cut looking fresh between visits.</p>
+        <div class="service-price">$25</div>
+        <a href="#booking" class="service-book">Book →</a>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ========= EXPERIENCE STRIP ========= -->
+<section class="experience">
+  <div class="exp-grid">
+    <div class="exp-img"><img src="Cutters Lounge/Dudes/Barber lounge portrait with style.png" alt="Cutters Lounge experience" /></div>
+    <div class="exp-img"><img src="Cutters Lounge/Dudes/Confident portrait in a stylish salon.png" alt="Cutters Lounge experience" /></div>
+    <div class="exp-img"><img src="Cutters Lounge/Dudes/Gutters Lounge portrait session.png" alt="Cutters Lounge experience" /></div>
+  </div>
+  <div class="exp-caption">
+    <h2>STYLE. PRECISION. LEGACY.</h2>
+    <a href="#booking" class="btn btn-primary">Reserve Your Chair</a>
+  </div>
+</section>
+
+<!-- ========= STAFF ========= -->
+<section class="staff" id="staff">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow">THE ARTISTS</span>
+      <h2 class="section-title">MEET THE STAFF</h2>
+      <p class="section-sub">Six master barbers. One standard of excellence.</p>
+    </div>
+
+    <div class="staff-grid">
+      <article class="staff-card">
+        <div class="staff-img"><img src="Cutters Lounge/Dudes/Confident portrait at Cutters Lounge.png" alt="Troy Higgins" /></div>
+        <div class="staff-info">
+          <h3>Troy Higgins</h3>
+          <span class="staff-role">Owner / Master Barber</span>
+          <p>Founder of Cutters Lounge, Troy has built a legacy of precision and style in the heart of Atlanta.</p>
+          <a href="https://instagram.com" target="_blank" rel="noopener" class="staff-ig">@troy_cuts</a>
+        </div>
+      </article>
+
+      <article class="staff-card">
+        <div class="staff-img"><img src="Cutters Lounge/Dudes/Professional portrait in modern barbershop setting.png" alt="Jarvis Burton" /></div>
+        <div class="staff-info">
+          <h3>Jarvis Burton</h3>
+          <span class="staff-role">Master Barber</span>
+          <p>Known for clean fades and crisp line work. Specializes in modern styles.</p>
+          <a href="https://instagram.com/jfades_atl" target="_blank" rel="noopener" class="staff-ig">@jfades_atl</a>
+        </div>
+      </article>
+
+      <article class="staff-card">
+        <div class="staff-img"><img src="Cutters Lounge/Dudes/Barber lounge portrait with style.png" alt="Drexel" /></div>
+        <div class="staff-info">
+          <h3>Drexel</h3>
+          <span class="staff-role">Senior Barber</span>
+          <p>Classic cuts with a modern edge. Ten years behind the chair.</p>
+          <a href="https://instagram.com" target="_blank" rel="noopener" class="staff-ig">@drex_cuts</a>
+        </div>
+      </article>
+
+      <article class="staff-card">
+        <div class="staff-img"><img src="Cutters Lounge/Dudes/Confident portrait in a stylish salon.png" alt="Renard N" /></div>
+        <div class="staff-info">
+          <h3>Renard N</h3>
+          <span class="staff-role">Master Barber</span>
+          <p>Beard artist and precision cut specialist. Royal Treatment expert.</p>
+          <a href="https://instagram.com" target="_blank" rel="noopener" class="staff-ig">@renard_n</a>
+        </div>
+      </article>
+
+      <article class="staff-card">
+        <div class="staff-img"><img src="Cutters Lounge/Dudes/Gutters Lounge portrait session.png" alt="Jay Tatum" /></div>
+        <div class="staff-info">
+          <h3>Jay Tatum</h3>
+          <span class="staff-role">Barber</span>
+          <p>Versatile stylist — from tapers to textured cuts and everything in between.</p>
+          <a href="https://instagram.com" target="_blank" rel="noopener" class="staff-ig">@jay_tatum</a>
+        </div>
+      </article>
+
+      <article class="staff-card">
+        <div class="staff-img"><img src="Cutters Lounge/Dudes/Confident smile in a modern barbershop.png" alt="Ajax" /></div>
+        <div class="staff-info">
+          <h3>Ajax</h3>
+          <span class="staff-role">Barber</span>
+          <p>Known for bold, statement styles and energetic chair-side vibes.</p>
+          <a href="https://instagram.com" target="_blank" rel="noopener" class="staff-ig">@ajax_cuts</a>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ========= PRODUCTS ========= -->
+<section class="products" id="products">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow">THE SHOP</span>
+      <h2 class="section-title">GROOMING PRODUCTS</h2>
+      <p class="section-sub">Premium products formulated and trusted by the Cutters Lounge team.</p>
+    </div>
+
+    <div class="product-grid">
+      <article class="product-card">
+        <a href="products/grooming-foam.html" class="product-link">
+          <div class="product-img">
+            <img src="Cutters Lounge/Grooming Foam/Grooming styling foam in moody setting.png" alt="Cutters Grooming Styling Foam" />
+            <img class="hover" src="Cutters Lounge/Grooming Foam/Stylish grooming foam product advertisement.png" alt="" />
+          </div>
+          <h3>Cutters Grooming Styling Foam</h3>
+          <div class="product-price">$20.00</div>
+        </a>
+        <button class="btn btn-dark btn-block add-cart" data-name="Cutters Grooming Styling Foam" data-price="20">Add to Cart</button>
+      </article>
+
+      <article class="product-card">
+        <a href="products/leave-in-conditioner.html" class="product-link">
+          <div class="product-img">
+            <img src="Cutters Lounge/Leave in conditioner/Minimalist grooming product shot with bottle.png" alt="Leave In Conditioner and Detangler" />
+            <img class="hover" src="Cutters Lounge/Leave in conditioner/Luxury grooming essentials for men.png" alt="" />
+          </div>
+          <h3>Leave In Conditioner & Detangler</h3>
+          <div class="product-price">$20.00</div>
+        </a>
+        <button class="btn btn-dark btn-block add-cart" data-name="Leave In Conditioner & Detangler" data-price="20">Add to Cart</button>
+      </article>
+
+      <article class="product-card">
+        <a href="products/matte-pomade.html" class="product-link">
+          <div class="product-img">
+            <img src="Cutters Lounge/Matte Pomade/Matte pomade in studio lighting.png" alt="Matte Pomade" />
+            <img class="hover" src="Cutters Lounge/Matte Pomade/Sleek matte pomade advertisement shot.png" alt="" />
+          </div>
+          <h3>Matte Pomade</h3>
+          <div class="product-price">$20.00</div>
+        </a>
+        <button class="btn btn-dark btn-block add-cart" data-name="Matte Pomade" data-price="20">Add to Cart</button>
+      </article>
+
+      <article class="product-card">
+        <a href="products/soul-tie-tshirt.html" class="product-link">
+          <div class="product-img">
+            <img src="Cutters Lounge/Tshirt/Cinematic studio portrait with industrial vibe.png" alt="Soul Tie T-Shirt" />
+            <img class="hover" src="Cutters Lounge/Tshirt/Muted industrial atmosphere with cool lighting.png" alt="" />
+          </div>
+          <h3>Soul Tie T-Shirt</h3>
+          <div class="product-price">$30.00</div>
+        </a>
+        <button class="btn btn-dark btn-block add-cart" data-name="Soul Tie T-Shirt" data-price="30">Add to Cart</button>
+      </article>
+    </div>
+
+    <div class="products-cta">
+      <a href="products/" class="btn btn-outline btn-lg">View Full Collection →</a>
+    </div>
+  </div>
+</section>
+
+<!-- ========= INSTAGRAM CTA ========= -->
+<section class="ig-cta">
+  <div class="container">
+    <h2>FOLLOW <a href="https://instagram.com/cutters_lounge" target="_blank" rel="noopener">@CUTTERS_LOUNGE</a> ON INSTAGRAM</h2>
+    <p>See our latest work, meet the crew, and catch exclusive product drops.</p>
+  </div>
+</section>
+
+<!-- ========= CONTACT / HOURS / MAP ========= -->
+<section class="contact" id="contact">
+  <div class="container contact-grid">
+    <div class="contact-info">
+      <span class="eyebrow">VISIT US</span>
+      <h2 class="section-title">FIND THE LOUNGE</h2>
+      <div class="info-block">
+        <h4>Address</h4>
+        <p>1 Moreland Avenue SE, Suite D<br/>Atlanta, GA 30316</p>
+      </div>
+      <div class="info-block">
+        <h4>Phone</h4>
+        <p><a href="tel:4042281025">404-228-1025</a></p>
+      </div>
+      <div class="info-block">
+        <h4>Hours</h4>
+        <ul class="hours">
+          <li><span>Monday – Friday</span><span>10 AM – 7 PM</span></li>
+          <li><span>Saturday</span><span>9 AM – 5 PM</span></li>
+          <li><span>Sunday</span><span>By Appointment</span></li>
+        </ul>
+      </div>
+      <a href="#booking" id="booking" class="btn btn-primary btn-lg">Book Your Appointment</a>
+    </div>
+    <div class="contact-map">
+      <iframe
+        src="https://www.google.com/maps?q=1+Moreland+Ave+SE,+Atlanta,+GA+30316&output=embed"
+        width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </div>
+</section>
+
+<!-- ========= FOOTER ========= -->
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <div class="footer-brand">
+      <img src="Cutters Lounge/New Logo/Cutters Lounge Atlanta logo.png" alt="" />
+      <p>The premier grooming experience in Atlanta, GA.</p>
+    </div>
+    <div class="footer-cols">
+      <div>
+        <h5>Explore</h5>
+        <a href="#home">Home</a>
+        <a href="#services">Services</a>
+        <a href="#staff">Barbers</a>
+        <a href="#products">Shop</a>
+      </div>
+      <div>
+        <h5>Visit</h5>
+        <a href="#contact">Location</a>
+        <a href="tel:4042281025">Call Us</a>
+        <a href="https://instagram.com/cutters_lounge" target="_blank" rel="noopener">Instagram</a>
+      </div>
+      <div>
+        <h5>Shop</h5>
+        <a href="products/grooming-foam.html">Styling Foam</a>
+        <a href="products/leave-in-conditioner.html">Conditioner</a>
+        <a href="products/matte-pomade.html">Pomade</a>
+        <a href="products/soul-tie-tshirt.html">T-Shirt</a>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span>© <span id="year"></span> Cutters Lounge. All rights reserved.</span>
+    <span class="pay-icons">VISA • MASTERCARD • AMEX • APPLE PAY • SHOP PAY</span>
+  </div>
+</footer>
+
+<!-- ========= CART DRAWER ========= -->
+<div class="cart-drawer" id="cartDrawer" aria-hidden="true">
+  <div class="cart-overlay" id="cartOverlay"></div>
+  <aside class="cart-panel">
+    <div class="cart-head">
+      <h3>Your Cart</h3>
+      <button class="icon-btn" id="cartClose" aria-label="Close cart">✕</button>
+    </div>
+    <div class="cart-items" id="cartItems"></div>
+    <div class="cart-foot">
+      <div class="cart-subtotal">
+        <span>Subtotal</span>
+        <span id="cartSubtotal">$0.00</span>
+      </div>
+      <button class="btn btn-primary btn-block btn-lg">Checkout</button>
+      <p class="cart-note">Shipping & taxes calculated at checkout</p>
+    </div>
+  </aside>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
